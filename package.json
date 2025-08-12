@@ -1,3 +1,5 @@
+// é a 'receita' do projeto, lista as informações do projeto e suas dependências (as 'ferramentas' wue precisa para funcionar)
+
 {
   "name": "aulas",
   "version": "1.0.0",
