@@ -1,3 +1,8 @@
+// é o arquivo que 'liga' a API, é onde o servidor Fastify é criado e configurado para começar a 'ouvir' os pedidos.
+/* Conceito aplicado: Node.js e Fastify. O que ele faz: Ele importa a configuração do app.js e usa o método .listen() 
+do Fastify para iniciar o servidor. Quando você vê "HTTP Server Running!" no terminal, é por causa dessa linha. 
+Ele está pronto para receber requisições. */
+
 import fastify from 'fastify'
 import crypto from 'node:crypto'
 
